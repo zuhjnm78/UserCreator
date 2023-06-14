@@ -4,7 +4,7 @@ public class Main {
         String password = "D_1hWiKjjP_9";
         String confirmPassword = "D_1hWiKjjP_9";
 
-        UserCreator.createUser(login,password,confirmPassword);
+        LoginValidator.validate(login,password,confirmPassword);
 
     }
 }
